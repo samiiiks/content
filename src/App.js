@@ -1,23 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import DatePicker from './Datepicker';
+import MouseHover from './MouseHover';
+import Loader from './Loader'
+import Instagram from './Instagram'
+import Counter from './Counter'
+import Navbar from './Navbar'
+import PasswordToggle from './Passwordtoggler';
+import Slider1 from './Slider1';
+import FeedbackSliderTwo from './FeedbackSliderTwo'
+import PortfolioSlider from './PortfolioSliderOne'
+import MainPage from './MainPage';
+import FeedbackSliderFour from './FeedbackSliderFour'
+import AnimatedSwiper from './AnimatedSwiper'
+import ContactForm from './ContactForm'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Navbar/> */}
+      {/* <Counter/> */}
+     {/* <DatePicker/> */}
+    {/* <MouseHover/>  */}
+    {/* <Loader/> */}
+    {/* <Instagram/> */}
+    {/* <PasswordToggle/> */}
+    {/* <MainPage/> */}
+    {/* <Slider/> */}
+    {/* <Slider1/> */}
+    {/* <FeedbackSliderTwo/> */}
+    {/* <FeedbackSliderFour/> */}
+    {/* <PortfolioSlider/> */}
+    {/* <AnimatedSwiper/> */}
+    {/* <ContactForm/>
+    <IsolateGallery/> */}
+    <Loader/>
+    
+    
     </div>
   );
 }
